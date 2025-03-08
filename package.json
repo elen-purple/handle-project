@@ -2,6 +2,7 @@
   "name": "handle-project",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://elen-purple.github.io/handle-project/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx parcel src/index.html",
