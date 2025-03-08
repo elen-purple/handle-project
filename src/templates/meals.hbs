@@ -1,0 +1,19 @@
+<ul class="meals__list">
+  {{#each meals}}
+    <li>
+      <img src="{{url}}" alt="{{name}}" />
+      <h3>{{name}}</h3>
+      <p>{{price}}$</p>
+    </li>
+  {{/each}}
+</ul>
+
+{{!-- <ul class="menu_list">
+  {{#each pizzas}}
+    <li>
+      <img src="{{photo}}" alt="" class="photo" />
+      <h2 class="title">{{title}}</h2>
+      <p class="cost">{{price}}</p>
+    </li>
+  {{/each}}
+</ul> --}}
