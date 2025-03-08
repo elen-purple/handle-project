@@ -6,10 +6,3 @@ const meals = mealsData.meals;
 const mealsLayout = mealsList({meals});
 root.innerHTML = mealsLayout;
 
-// import pizzalist from "./templates/meals.hbs";
-// import pizzadata from "./menu.json";
-
-// const menu = document.querySelector("#menu");
-// const pizzas = pizzadata.pizzas;
-// const pizzaLayout = pizzalist({ pizzas });
-// menu.innerHTML = pizzaLayout;
